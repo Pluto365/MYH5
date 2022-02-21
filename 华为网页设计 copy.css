@@ -1,0 +1,491 @@
+*{
+    margin: 0px;
+    padding:0;
+    border: 0;
+}
+html,body{
+    height:100%;
+}
+.black_top{
+    width: calc(100vw);
+    height:30px;
+    background-color: rgb(32, 32, 32);
+}
+.sign_in{
+    height:calc(0.5vw);
+    margin: calc((20px - 0.5vw)/2)  100px  0  0px ;
+    float: right;
+    color: rgb(255, 255, 255);
+    font-size: calc(0.5vw);
+}
+.language_top
+{
+    height:calc(0.5vw);
+    margin: calc((20px - 0.5vw)/2)  100px  calc((20px - 0.5vw)/2)  0px ;
+    float: right;
+    color: rgb(255, 255, 255);
+    font-size: calc(0.5vw);
+}
+.JTWZ_top{
+    height:calc(0.5vw);
+    margin: calc((20px - 0.5vw)/2)  100px  calc((20px - 0.5vw)/2)  0px ;
+    float: right;
+    color: rgb(255, 255, 255);
+    font-size: calc(0.5vw);
+}
+.two_part{
+    width: 100vw;
+    height:50px;
+    background-color: rgb(236, 236, 236);
+}
+.two_text{
+    height:calc(0.7vw);
+    width: 504px;
+    margin: calc((50px - 1vw) / 2) calc((100vw - 504px) / 2 - 148px) calc((50px - 1vw) / 2) 0;
+    float: right;
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+}
+.two_buy{
+    height:calc(0.7vw);
+    width: 48px;
+    margin: calc((50px - 1vw) / 2) 100px calc((50px - 1vw) / 2) 0;
+    float: right;                         
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+
+}
+.logo{
+    margin: calc(0.5vw) 0 0 80px;
+    float: left;
+    height: 35px;
+
+}
+.three_part{
+    width: calc(70vw);
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    /* height: 400%; */
+
+    /* background-image: url(images\前行不辍.png); */
+    /* background-position: 12.5% 0; */
+}
+.three-one-pic{
+    background-color: aqua;
+    height: calc(50vh);
+    width: 100%;
+    background-image: url(images/前行不辍.jpg);
+    background-size:cover ;
+    overflow: hidden;
+}
+.three-one-text1{
+    color: rgb(255, 255, 255);
+    float: left;
+    font-size: 48px;
+    margin-top: calc(13vh);
+    margin-left: calc(11vw);
+}
+.three-one-text2{
+    margin-top: 40px;
+    border:1px solid rgb(255, 255, 255);
+    font-size: 24px;
+    padding: 5px 50px 5px 50px;
+    width: 96px;
+}
+.three-one-2rectange{
+    margin-top: calc(46vh);
+    width: 300px;
+    height: 6px;
+    /* background-color: aqua; */
+}
+.three-one-rectange1{
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 4px;
+    float: left;
+}
+.three-one-rectange2{
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 120px;
+    height: 4px;
+    float:right ;
+}
+.part2{
+    height: 200px;
+    background-color: #fff;
+    overflow:hidden; 
+    position:relative;
+}
+.part2-text{
+    width: 96px;
+    height: 24px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -12px 0 0 -48px;
+    font-size: 24px;
+}
+.part2-rectange{
+    background-color: rgb(255, 0, 0);
+    width: 70px;
+    height: 2px;
+    position: absolute;
+    left: 50%;
+    bottom: 20%;
+    margin: -1px 0 0 -35px;
+}
+.part3{
+    margin: 0 auto;
+    height: auto;
+    width: 70%;
+    background-color: rgb(255, 255, 255);
+    overflow:hidden; 
+}
+.part3-1{
+    height: calc(30vh);
+    margin-bottom: 20px;
+}
+.part3-1-left{
+    background-color: aqua;
+    height: calc(30vh);
+    width: 65%;
+    background-image: url(images/1-matebook-x-pro-2022-2.jpg);
+    background-size:cover ;
+    overflow: hidden;
+    float: left;
+    color: white;
+}
+.part3-1-left-text{
+    font-size: 15px;
+    margin-top: 23vh;
+    margin-left: 20px;
+
+}
+.part3-1-right{
+    background-color: aqua;
+    height: calc(30vh);
+    width: 34%;
+    background-image: url(images/2-nova-9-pro.jpg);
+    background-size:cover ;
+    overflow: hidden;
+    float: right;
+    color: white;
+}
+.part3-1-right-text{
+    font-size: 15px;
+    margin-top: 23vh;
+    margin-left: 20px;
+}
+.part3-2{
+    height: calc(30vh);
+    margin-bottom: 20px;
+}
+.part3-2-right{
+    background-color: aqua;
+    height: calc(30vh);
+    width: 67%;
+    background-image: url(images/4-watch-d-p.jpg);
+    background-size:cover ;
+    overflow: hidden;
+    float: right;
+    color: white;
+}
+.part3-2-right-text{
+    font-size: 15px;
+    margin-top: 23vh;
+    margin-left: 20px;
+}
+.part3-2-left{
+    background-color: aqua;
+    height: calc(30vh);
+    width: 32%;
+    background-image: url(images/3-matebook-e-p.jpg);
+    background-size:cover ;
+    overflow: hidden;
+    float: left;
+    color: white;
+}
+.part3-2-left-text{
+    font-size: 15px;
+    margin-top: 23vh;
+    margin-left: 20px;
+}
+
+.part3-3{
+    height: calc(30vh);
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.part3-3-left{
+    background-color: aqua;
+    height: calc(30vh);
+    width: 32%;
+    background-image: url(images/5.jpg);
+    background-size:cover ;
+    overflow: hidden;
+    float: left;
+    color: white;
+}
+.part3-3-left-text{
+    font-size: 15px;
+    margin-top: 23vh;
+    margin-left: 20px;
+}
+.part3-3-mid{
+    background-color: aqua;
+    height: calc(30vh);
+    width: 32%;
+    background-image: url(images/6.jpg);
+    background-size:cover ;
+    overflow: hidden;
+    float: left;
+    position: absolute;
+    left: 50%;
+    margin-left: -17%;
+    color: white;
+}
+.part3-3-mid-text{
+    font-size: 15px;
+    margin-top: 23vh;
+    margin-left: 20px;
+}
+.part3-3-right{
+    background-color: aqua;
+    height: calc(30vh);
+    width: 34%;
+    background-image: url(images/7.jpg);
+    background-size:cover ;
+    overflow: hidden;
+    float: right;
+    color: white;
+}
+.part3-3-right-text{
+    font-size: 15px;
+    margin-top: 23vh;
+    margin-left: 20px;
+}
+.part4{
+    margin-top: 30px;
+    width: 100%;
+    height: calc(50vh);
+    overflow:hidden; 
+    position: relative;
+    background-size:cover ;
+    background-color: bisque;
+    background-image: url(images/8.jpg);
+}
+.part4-text{
+    color: #fff;
+    margin-top: calc(14vh);
+    border:1px solid rgb(255, 255, 255);
+    font-size: 24px;
+    position: absolute;
+    top:35%;
+    left:14.8%;
+    padding: 5px 50px 5px 50px;
+    width: 96px;
+}
+.part5{
+    height: 200px;
+    background-color: #fff;
+    overflow:hidden; 
+    position:relative;
+}
+.part5-text{
+    width: 96px;
+    height: 24px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -12px 0 0 -48px;
+    font-size: 24px;
+}
+.part5-rectange{
+    background-color: rgb(255, 0, 0);
+    width: 70px;
+    height: 2px;
+    position: absolute;
+    left: 50%;
+    bottom: 20%;
+    margin: -1px 0 0 -35px;
+}
+.part6{
+    margin: 0 auto;
+    width: 70%;
+    background-color: rgba(255, 255, 255, 0);
+    height: calc(30vh);
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.part6-left{
+    background-color: rgb(241, 241, 241);
+    height: 450px;
+    width: 32%;
+    /* background-image: url(images/5.jpg); */
+    background-size:cover ;
+    overflow: hidden;
+    float: left;
+    color: white;
+}
+.part6-left-pic{
+    width:100%;
+}
+.part6-left-text{
+    margin-top: 5%;
+    font-size: 15px;
+    /* margin-top: 23vh; */
+    margin-left: 20px;
+}
+.part6-mid{
+    background-color: rgb(241, 241, 241);
+    height: 450px;
+    width: 32%;
+    /* background-image: url(images/6.jpg); */
+    background-size:cover ;
+    overflow: hidden;
+    float: left;
+    position: absolute;
+    left: 50%;
+    margin-left: -17%;
+    color: white;
+}
+.part6-mid-pic{
+    width:100%;
+}
+.part6-mid-text{
+    font-size: 15px;
+    margin-top: 5%;
+    margin-left: 20px;
+}
+.part6-right{
+    background-color: rgb(241, 241, 241);
+    height: 450px;
+    width: 34%;
+    /* background-image: url(images/7.jpg); */
+    background-size:cover ;
+    overflow: hidden;
+    float: right;
+    color: white;
+}
+.part6-right-text{
+    margin-left:5%;
+    color: black;
+    margin-top:5%;
+    /* margin-left: 20px; */
+}
+.ul1{
+    list-style-type:none;
+}
+.li1-text{
+    font-size: 14px;
+}
+.li1-time{
+    font-size: 11px;;
+}
+.part7-2rectange{
+    position: relative;
+    margin-top: 100px;
+    width: 300px;
+    height: 10vh;
+    overflow: hidden;
+    /* background-color: aqua; */
+}
+.part7-rectange1{
+    float: left;
+    color: #fff;
+    border:1px solid rgb(255, 255, 255);
+    font-size: 13px;
+    padding: 5px 20px 5px 20px;
+    width: 96px;
+}
+.part7-rectange2{
+    float: right;
+    color: #fff;
+    border:1px solid rgb(255, 255, 255);
+    font-size: 13px;
+    padding: 5px 20px 5px 20px;
+    width: 96px;
+}
+.part8{
+    width: 70%;
+    /* height: 25px; */
+    background-color: rgba(37, 37, 82, 0);
+    margin: 0 auto;
+    overflow: hidden;
+}
+.part8-text{
+    margin: 20px 0 ;
+    float: left;
+    font-size: 14px;
+    color:rgba(0, 0, 0, 0.8);
+}
+.part8-pic{
+    margin: 20px 0 ;
+    height: 21px;
+    float: right;
+}
+.line1{
+    width: 70%;
+    margin: 5px auto;
+    border: 1px solid rgb(160, 160, 160);
+}
+.part9{
+    background-color: rgba(37, 37, 82, 0);
+    margin: 0 auto;
+    width: 70%;
+    overflow: hidden;
+}
+.list1{
+    width: 20%;
+    list-style-type: none;
+    float: left;
+}
+.list2{
+    width: 20%;
+    list-style-type: none;
+    float: left;
+}
+.list3{
+    width: 20%;
+    list-style-type: none;
+    float: left;
+}
+.list4{
+    width: 20%;
+    list-style-type: none;
+    float: left;
+}
+.list5{
+    width: 20%;
+    list-style-type: none;
+    float: left;
+}
+.part10{
+    height: 80px;
+    margin:0 auto;
+    width:70% ;
+}
+.part10-text{
+    margin-top:20px;    
+    float: left;
+    font-size: 13px;
+    color:rgba(0, 0, 0, 0.8);
+}
+.part10-pic{
+    margin-top:20px;    
+    float: right;
+}
+.part10-pic1{
+    float: right;
+    margin-left:20px
+}
+.four-part{
+    background-color: #F2F2F2;
+}
+.end-part{
+    font-size: 13px;
+    margin-top: 5px;
+    color:rgba(0, 0, 0, 0.8);
+}
