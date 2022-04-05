@@ -5,6 +5,7 @@
 }
 html,body{
     height:100%;
+    
 }
 .black_top{
     width: calc(100vw);
@@ -154,10 +155,12 @@ html,body{
     overflow: hidden;
     float: left;
     color: white;
+    display: flex;
+    align-items:flex-end;
 }
 .part3-1-left-text{
     font-size: 15px;
-    margin-top: 23vh;
+    margin-bottom: 10px;
     margin-left: 20px;
 
 }
@@ -170,10 +173,12 @@ html,body{
     overflow: hidden;
     float: right;
     color: white;
+    display: flex;
+    align-items:flex-end;
 }
 .part3-1-right-text{
     font-size: 15px;
-    margin-top: 23vh;
+    margin-bottom: 10px;
     margin-left: 20px;
 }
 .part3-2{
@@ -189,10 +194,12 @@ html,body{
     overflow: hidden;
     float: right;
     color: white;
+    display: flex;
+    align-items:flex-end;
 }
 .part3-2-right-text{
     font-size: 15px;
-    margin-top: 23vh;
+    margin-bottom: 10px;
     margin-left: 20px;
 }
 .part3-2-left{
@@ -204,10 +211,12 @@ html,body{
     overflow: hidden;
     float: left;
     color: white;
+    display: flex;
+    align-items:flex-end;
 }
 .part3-2-left-text{
     font-size: 15px;
-    margin-top: 23vh;
+    margin-bottom: 10px;
     margin-left: 20px;
 }
 
@@ -226,10 +235,12 @@ html,body{
     overflow: hidden;
     float: left;
     color: white;
+    display: flex;
+    align-items:flex-end;
 }
 .part3-3-left-text{
     font-size: 15px;
-    margin-top: 23vh;
+    margin-bottom: 10px;
     margin-left: 20px;
 }
 .part3-3-mid{
@@ -244,10 +255,12 @@ html,body{
     left: 50%;
     margin-left: -17%;
     color: white;
+    display: flex;
+    align-items:flex-end;
 }
 .part3-3-mid-text{
     font-size: 15px;
-    margin-top: 23vh;
+    margin-bottom: 10px;
     margin-left: 20px;
 }
 .part3-3-right{
@@ -259,10 +272,12 @@ html,body{
     overflow: hidden;
     float: right;
     color: white;
+    display: flex;
+    align-items:flex-end;
 }
 .part3-3-right-text{
     font-size: 15px;
-    margin-top: 23vh;
+    margin-bottom: 10px;
     margin-left: 20px;
 }
 .part4{
